@@ -58,6 +58,24 @@ button {
   padding: 0 1.7rem;
 }
 
+.jmRdbf {
+    font-family: "iFood RC Textos", sans-serif;
+    color: rgb(62, 62, 62);
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 0.5rem;
+    max-width: 80%;
+}
+
+.IcvVT {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+
 /* ==== NAV ==== */
 .nav {
   width: 100%;
