@@ -286,6 +286,12 @@ footer {
   .logo h2 {
     font-size: 23px;
   }
+  
+  footer {
+
+    text-align: center;
+}
+  
   .nav_menu {
     position: fixed;
     width: 93%;
