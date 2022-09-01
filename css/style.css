@@ -266,9 +266,10 @@ button {
 footer {
     width: 100%;
     background: #F1F1F1 url(/img/bgcomida.svg) repeat;
-    height: 250px;
+
     margin-top: 8rem;
-    padding-top:1.5rem
+    padding-top:1.5rem;
+    padding-bottom: 3.5rem;
 }
 
 /* ==== MEDIA QURIES FOR RESPONSIVE DESIGN ==== */
