@@ -145,6 +145,7 @@ button {
   font-weight: 300;
   font-size: 40px;
   line-height: 55px;
+  color: #1d2a5d;
 }
 .main-heading span {
   color: var(--primary-color);
