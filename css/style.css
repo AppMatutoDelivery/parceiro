@@ -357,12 +357,13 @@ footer {
 @media screen and (max-width: 991px) {
   .wrapper {
     padding-top: 3rem;
+    padding-bottom: 1rem;
   }
   .grid-cols-2 {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }
   .grid-item-1 {
-    order: 2;
+    order: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -395,6 +396,7 @@ footer {
   .team_img_wrapper {
     width: 350px;
     height: 350px;
+    max-width: 110%;  
   }
   .featured_info span {
     font-size: 19px;
