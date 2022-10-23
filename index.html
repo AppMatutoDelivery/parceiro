@@ -75,7 +75,17 @@
               
                
               
-              <button class="btn view_more_btn"><a href="https://play.google.com/store/apps/details?id=br.com.matutodelivery.empresa" class="nav_menu_link">App Parceiro</a><i class="ri-arrow-right-line"></i>
+              <button class="btn view_more_btn">
+		      
+		      <div class="popup" onclick="myFunction()">Click me to toggle the popup!
+  <span class="popuptext" id="myPopup"><iframe frameborder='1' height='350' scrolling='no' src='https://15684197971987.bubbleapps.io/version-test/contato' width='100%' style="background-color: #ffeeed;border: 0px;border-radius: 10px;"></iframe>
+            </span>
+</div>
+
+
+		      
+		      
+	      <i class="ri-arrow-right-line"></i>
                </button>
              
 
@@ -255,5 +265,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <!-- ==== SCRIPT.JS ==== -->
     <script src="./script.js" defer></script>
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
   </body>
 </html>
