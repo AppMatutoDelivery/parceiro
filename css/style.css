@@ -57,7 +57,7 @@ button {
 .header {
   height: var(--fixed-header-height);
   padding: 0 1.7rem;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .jmRdbf {
