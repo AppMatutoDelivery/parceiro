@@ -157,7 +157,7 @@ button {
   color: #334157;
 }
 .btn_wrapper {
-  margin-top: 3.5rem;
+  margin-top: 4.5rem;
   display: flex;
   width: 100%;
 }
@@ -178,7 +178,7 @@ button {
   background-color: var(--btn-hover-color);
 }
 .view_more_btn {
-  width: 180px;
+  width: 200px;
   height: 55px;
   display: flex;
   align-items: center;
